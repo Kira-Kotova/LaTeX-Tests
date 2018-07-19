@@ -1,0 +1,31 @@
+\documentclass[12pt,a4paper]{report}
+\usepackage[utf8]{inputenc}
+\usepackage[russian]{babel}
+\begin{document}
+\begin{titlepage}
+	\centering
+	{\Large \bfseries \textsc{Федеральное государственное бюджетное образовательное учреждение высшего образования}\par}
+	\vspace{0,5cm}
+	{\large \bfseries \textsc{Российский~университет~транспорта(РУТ)}\par}
+	\vspace{0.5cm}
+	\hline
+    \vspace{2cm}
+	%Институт транспортной техники и систем управления
+	{\Large Кафедра~<<Управление~и~защита~информации>>\par}
+	\vspace{2cm}
+    {\Large \bfseries Курсовая работа\par}
+    {\Large По дисциплине: \par}
+    {\Large На тему: \par}
+    \vfill
+    \begin{flushright}
+        \begin{tabular}{l l}
+            {\Large Выполнил: } & {\Large Олег } \\
+            {\Large Группа: } & {\Large дизайнеров}\\
+            {\Large Проверил: } & {\Large Игорь }\\
+        \end{tabular}
+    \end{flushright}
+    \vfill
+% Bottom of the page
+	{\large Москва~~2018~г. \par}
+\end{titlepage}
+\end{document}
