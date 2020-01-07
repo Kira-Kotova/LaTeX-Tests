@@ -32,3 +32,6 @@ _ReSharper*/
 .vs/
 #Nuget packages folder
 packages/
+# TeX / LaTeX & Bib(La)Tex
+*.bbl
+*.blg

@@ -1,5 +1,5 @@
 % Настраиваем формат -- статья (короткая работа), A4, шрифт 14pt
-\documentclass[a4paper, 14pt]{extarticle}
+\documentclass[a4paper, 14pt]{article}
 
 % Подключаем преамбулу
 \input{include/preamble}
@@ -15,7 +15,8 @@
 
 % Подключаются остальные части отчёта
 
-\input{include/0-bibliography}
+% И список использованной литературы
+\bibliography{include/citations}
 
 % Конец документа
 \end{document}
