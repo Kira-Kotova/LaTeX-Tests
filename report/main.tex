@@ -1,0 +1,22 @@
+% Настраиваем формат -- статья (короткая работа), A4, шрифт 14pt
+\documentclass[a4paper, 14pt]{article}
+
+% Подключаем преамбулу
+\input{include/preamble}
+
+% Начало документа
+\begin{document}
+
+% Подключаем титульный лист
+\input{include/0-title}
+
+% Подключаем введение
+\input{include/1-introduction}
+
+% Подключаются остальные части отчёта
+
+% И список использованной литературы
+\bibliography{include/citations}
+
+% Конец документа
+\end{document}
